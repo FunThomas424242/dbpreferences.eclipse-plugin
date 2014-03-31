@@ -7,7 +7,7 @@
             category="funthomas.preferences"
             class="dbpreferences.plugin.preferences.DBPreferencePage"
             id="dbpreferences.plugin.preferences.DBPreferencePage"
-            name="DB Preferences">
+            name="JPA">
       </page>
    </extension>
    <extension
