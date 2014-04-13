@@ -1,9 +1,9 @@
-package dbpreferences.plugin.preferences;
+package jpa.preferences;
+
+import jpa.preferences.osgi.Activator;
 
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.jface.preference.IPreferenceStore;
-
-import dbpreferences.plugin.Activator;
 
 /**
  * Class used to initialize default preference values.

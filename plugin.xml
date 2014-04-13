@@ -4,16 +4,16 @@
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            category="funthomas.preferences"
-            class="dbpreferences.plugin.preferences.DBPreferencePage"
-            id="dbpreferences.plugin.preferences.DBPreferencePage"
+            category="devtools.preferences"
+            class="jpa.preferences.JPAPreferencePage"
+            id="jpa.preferences.JPAPreferencePage"
             name="JPA">
       </page>
    </extension>
    <extension
          point="org.eclipse.core.runtime.preferences">
       <initializer
-            class="dbpreferences.plugin.preferences.PreferenceInitializer">
+            class="jpa.preferences.PreferenceInitializer">
       </initializer>
    </extension>
 

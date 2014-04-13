@@ -1,4 +1,4 @@
-package dbpreferences.plugin.preferences;
+package jpa.preferences;
 
 /**
  * Constant definitions for plug-in preferences

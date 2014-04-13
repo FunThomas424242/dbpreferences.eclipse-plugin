@@ -1,12 +1,12 @@
-package dbpreferences.plugin.preferences;
+package jpa.preferences;
+
+import jpa.preferences.osgi.Activator;
 
 import org.eclipse.jface.preference.FieldEditorPreferencePage;
 import org.eclipse.jface.preference.RadioGroupFieldEditor;
 import org.eclipse.jface.preference.StringFieldEditor;
 import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPreferencePage;
-
-import dbpreferences.plugin.Activator;
 
 /**
  * This class represents a preference page that
@@ -21,10 +21,10 @@ import dbpreferences.plugin.Activator;
  * preferences can be accessed directly via the preference store.
  */
 
-public class DBPreferencePage extends FieldEditorPreferencePage implements
+public class JPAPreferencePage extends FieldEditorPreferencePage implements
         IWorkbenchPreferencePage {
 
-    public DBPreferencePage() {
+    public JPAPreferencePage() {
         super(GRID);
         setPreferenceStore(Activator.getDefault().getPreferenceStore());
         setDescription("Preferences of JPA Connection");
