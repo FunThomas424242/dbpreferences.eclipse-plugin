@@ -42,31 +42,31 @@ public class JPAPreferencePage extends FieldEditorPreferencePage implements
     protected void createFieldEditors() {
         addField(new StringFieldEditor(PreferenceConstants.P_JPA_UNITNAME,
                 "JPA Unit Name:", getFieldEditorParent()));
-        addField(new StringFieldEditor(PreferenceConstants.P_USERNAME,
+        addField(new StringFieldEditor(PreferenceConstants.P_JDBC_USERNAME,
                 "JDBC User Name:", getFieldEditorParent()));
-        addField(new StringFieldEditor(PreferenceConstants.P_PASSWORD,
+        addField(new StringFieldEditor(PreferenceConstants.P_JDBC_PASSWORD,
                 "JDBC Password:", getFieldEditorParent()));
-        addField(new StringFieldEditor(PreferenceConstants.P_DRIVERCLASS,
+        addField(new StringFieldEditor(PreferenceConstants.P_JDBC_DRIVER,
                 "JDBC DB Driver Class Name:", getFieldEditorParent()));
-        addField(new StringFieldEditor(PreferenceConstants.P_URL, "JDBC URL:",
+        addField(new StringFieldEditor(PreferenceConstants.P_JDBC_URL, "JDBC URL:",
                 getFieldEditorParent()));
-        addField(new RadioGroupFieldEditor(PreferenceConstants.P_LOGLEVEL,
+        addField(new RadioGroupFieldEditor(PreferenceConstants.P_JPA_LOGLEVEL,
                 "DB Log Level", 1, new String[][] { { "&ERROR", "error" },
                         { "&DEBUG", "debug" }, { "&INFO", "info" },
                         { "&FINEST", "finest" } }, getFieldEditorParent()));
 
         addField(new RadioGroupFieldEditor(
-                PreferenceConstants.P_WAEVING_INTERNAL, "JPA Waeving Internal",
+                PreferenceConstants.P_JPA_WAEVING_INTERNAL, "JPA Waeving Internal",
                 1,
                 new String[][] { { "&FALSE", "false" }, { "&TRUE", "true" } },
                 getFieldEditorParent()));
         addField(new RadioGroupFieldEditor(
-                PreferenceConstants.P_DDL_GENERATION, "DDL Generation", 1,
+                PreferenceConstants.P_JPA_DDL_GENERATION, "DDL Generation", 1,
                 new String[][] { { "&None", "none" },
                         { "&DROP & CREATE", "dropcreate" }, },
                 getFieldEditorParent()));
         addField(new RadioGroupFieldEditor(
-                PreferenceConstants.P_DDL_GENERATION_MODE,
+                PreferenceConstants.P_JPA_DDL_GENERATION_MODE,
                 "DDL Generation Mode", 1, new String[][] { { "&None", "none" },
                         { "&Database Creation", "database" } },
                 getFieldEditorParent()));

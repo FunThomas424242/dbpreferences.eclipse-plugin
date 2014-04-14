@@ -5,20 +5,18 @@ package jpa.preferences;
  */
 public class PreferenceConstants {
 
-	public static final String P_PATH = "pathPreference";
+    public static final String P_PATH = "pathPreference";
 
-	public static final String P_BOOLEAN = "booleanPreference";
+    public static final String P_BOOLEAN = "booleanPreference";
 
-	
-	
-	public static final String P_JPA_UNITNAME = "jpaUnitNamePreference";
-	public static final String P_USERNAME = "userNamePreference";
-	public static final String P_PASSWORD = "passwordPreference";
-	public static final String P_DRIVERCLASS = "driverClassPreference";
-	public static final String P_URL = "urlPreference";
-	public static final String P_LOGLEVEL = "logLevelPreference";
-	public static final String P_WAEVING_INTERNAL = "waevingPreference";
-	public static final String P_DDL_GENERATION = "ddlGenerationPreference";
-	public static final String P_DDL_GENERATION_MODE = "ddlGenerationModePreference";
-	
+    public static final String P_JDBC_USERNAME = "jdbcUserNamePreference";
+    public static final String P_JDBC_PASSWORD = "jdbcPasswordPreference";
+    public static final String P_JDBC_DRIVER = "jdbcDriverClassPreference";
+    public static final String P_JDBC_URL = "jdbcUrlPreference";
+    public static final String P_JPA_UNITNAME = "jpaUnitNamePreference";
+    public static final String P_JPA_LOGLEVEL = "jpaLogLevelPreference";
+    public static final String P_JPA_WAEVING_INTERNAL = "jpaWaevingPreference";
+    public static final String P_JPA_DDL_GENERATION = "jpaDDLGenerationPreference";
+    public static final String P_JPA_DDL_GENERATION_MODE = "jpaDDLGenerationModePreference";
+
 }

@@ -2,7 +2,7 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         point="org.eclipse.ui.preferencePages">
+         point="com.opcoach.e4.preferences.e4PreferencePages">
       <page
             category="devtools.preferences"
             class="jpa.preferences.JPAPreferencePage"
@@ -16,5 +16,6 @@
             class="jpa.preferences.PreferenceInitializer">
       </initializer>
    </extension>
-
+   
+   
 </plugin>
