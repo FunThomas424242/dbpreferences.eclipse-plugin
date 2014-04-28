@@ -6,8 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: jpa.preferences.osgi.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- devtools-preferences.plugin,
- com.opcoach.e4.preferences
+ devtools-preferences.plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Export-Package: jpa.preferences,
